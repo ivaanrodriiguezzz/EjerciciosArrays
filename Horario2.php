@@ -15,7 +15,9 @@
             </tr>
             <?php
                 //Recorremos todas las filas y las visualizamos 
-                foreach ($horario as $numeroFila => $fila) {
+                $numeroFila=0;
+                for($numeroFila=0;$numeroFila<count($horario);$numeroFila++){
+                    $fila = $horario[$numeroFila];
                     echo "<tr>";
                     foreach ($fila as $celda) {
                         echo "<td>" . $celda . "</td>";
