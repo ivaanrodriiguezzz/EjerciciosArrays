@@ -1,4 +1,5 @@
 <!-- Nos traemos toda la información de Asignaturas.php como en Java-->
+<!-- Esta es la primera version del horario con dos foreachs -->
 <?php include "Asignaturas.php"; ?>
 <!DOCTYPE html>
 <html lang="es">
