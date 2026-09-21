@@ -14,7 +14,7 @@
                 <th colspan="6">Horario 2ºDAW</th>
             </tr>
             <?php
-                //Recorremos todas las filas 
+                //Recorremos todas las filas y las visualizamos 
                 foreach ($horario as $numeroFila => $fila) {
                     echo "<tr>";
                     foreach ($fila as $celda) {
@@ -22,6 +22,7 @@
                     }
                     echo "</tr>";
                 }
+                //No fui capaz de hacer los colores
             ?>
         </table>
     </body>
